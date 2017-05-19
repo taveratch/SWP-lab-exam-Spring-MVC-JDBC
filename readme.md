@@ -20,6 +20,14 @@
 
 ![alt tag](https://raw.githubusercontent.com/taweesoft/SWP-lab-exam-Spring-MVC-JDBC/master/screenshots/table.png)
 
+## Database set up
+``CREATE TABLE `patterns` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(39) NOT NULL,
+  `group` varchar(39) NOT NULL,
+  `implementation` varchar(39) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8``
 
 ----
 **Taweerat Chaiman 5710546259**
